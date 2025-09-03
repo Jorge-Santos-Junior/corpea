@@ -1,0 +1,327 @@
+/* Correção para o alinhamento do título */
+.header-container h1 {
+    flex-grow: 1; /* Faz o título ocupar todo o espaço disponível */
+    text-align: center; /* Garante que o texto dentro do h1 fique centralizado */
+}
+
+/* Estilo para a nova barra de navegação no cabeçalho */
+.header-nav {
+    display: flex;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    padding: 10px 0;
+    background-color: #0bb12f; /* Mesma cor do h1 para integração */
+    width: 100%; /* Garante que ocupe a largura total */
+    box-sizing: border-box; /* Inclui padding na largura total */
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas menores */
+}
+
+.header-nav .nav-button {
+     /* Sobrescreve 'display: block' e 'width: 100%' da regra geral .nav-button */
+    display: inline-block; /* Permite que os botões fiquem lado a lado e se ajustem ao conteúdo */
+    margin: 5px 15px; /* Espaçamento entre os botões */
+    padding: 10px 20px;
+    background-color: #005a8b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.header-nav .nav-button:hover {
+    background-color: #003e63;
+}
+
+
+/* Estilo básico para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cinza claro */
+}
+
+/* Estilo do título principal com faixa laranja que agora é verde*/
+h1 {
+    background-color: #0bb12f; /* Laranja ou verde escuro */
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Container principal da página */
+.main-container {
+    display: block;
+    padding: 20px;
+}
+
+/* Área de conteúdo principal */
+.content {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 20px; /* Recuo para o texto */
+    box-sizing: border-box; /* Inclui padding na largura total */
+
+}
+
+/* Estilo dos botões de navegação na barra lateral que agora é cabeçalho */
+.nav-button {
+    /*display: block;
+    width: 100%; Esses dois itens fazem o botão ficar muito grande*/
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #005a8b; /* Azul escuro */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #003e63;
+}
+
+
+/* Botão "voltar à página inicial" */
+.content a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #005a8b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.content a:hover {
+    background-color: #003e63;
+}
+
+/* Estilo de listas e cabeçalhos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h3, h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Para formulários e filtros */
+form {
+    margin-bottom: 20px;
+}
+
+label, input[type="checkbox"] {
+    margin: 5px 0;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .content {
+        width: 100%;
+    }
+    .header-nav {
+        flex-direction: column; /* Empilha os botões em telas pequenas */
+        align-items: center;
+    }
+    .header-nav .nav-button {
+        width: auto;      /* Permite que o botão se ajuste ao conteúdo */
+        max-width: 90%;   /* Limita a largura máxima para evitar botões muito largos */
+        min-width: 200px; /* Garante uma largura mínima para botões curtos */
+        margin: 5px auto; /* Centraliza e adiciona margem vertical */
+        text-align: center; /* Centraliza o texto dentro do botão */
+    }
+}
+
+/* Fundo azul claro para a caixa de filtros na página de resultados */
+.filter-box {
+    background-color: #d0e7ff; /* Azul claro */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Ajustes gerais para botão "Buscar" e os demais botões "nav-button" já estilizados */
+
+/* Estilo para os títulos dos filtros */
+label {
+    display: inline-block;
+    width: 100%; /* Ocupa a largura total do container */
+    background-color: #d0e7ff; /* Fundo azul claro */
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo para a tag 'span' usada pelo ft:mark para destaque */
+b {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #0bb12f; /* Cor do cabeçalho */
+    color: white;
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+    display: flex; /* Permite flexbox para alinhamento */
+    flex-direction: column; /* Organiza itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente (se houver espaço) */
+    margin-top: 40px; /* Adiciona espaço acima do rodapé */
+}
+
+/* Estilo para o contêiner dos logotipos no rodapé */
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os logotipos */
+    margin-bottom: 15px; /* Espaço abaixo dos logotipos e acima da licença */
+    flex-wrap: wrap; /* Permite que os logotipos quebrem a linha */
+}
+
+/* Ajuste o tamanho dos logotipos */
+.partner-logo {
+    max-width: 150px; /* Aumenta o tamanho máximo da imagem */
+    height: auto;
+    margin: 10px 0; /* Remove margens extras se necessário */
+}
+
+/* Estilo para as informações de licença no rodapé */
+.license-info {
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #e0e0e0;
+}
+
+/* ========================================================= */
+/* Estilos para o Modo Escuro */
+/* ========================================================= */
+
+.dark-mode {
+    background-color: #383737; /* Fundo escuro */
+    color: #d3d0d0; /* Cor do texto principal */
+}
+
+/* Alterar a cor de fundo do novo container do cabeçalho */
+.dark-mode .header-container {
+    background-color: #0d6699 !important; /* Cor do cabeçalho no modo escuro */
+}
+/* Alterar a cor de fundo dos containers e conteúdos */
+.dark-mode .main-container,
+.dark-mode .content {
+    background-color: #1e1e1e; /* Fundo mais escuro para os blocos */
+    border-color: #333; /* Cor da borda mais escura */
+}
+
+/* Alterar a cor do cabeçalho e navegação */
+.dark-mode h1,
+.dark-mode h3,
+.dark-mode label { /* Incluindo a tag 'label' para os títulos dos filtros */
+    color: #ffffff;
+}
+
+.dark-mode .header-nav {
+    background-color: #003e63; /* Cor mais escura para a navegação */
+}
+
+.dark-mode .header-nav .nav-button {
+    background-color: #005a8b; /* Fundo dos botões de navegação */
+    color: #000000;
+}
+
+.dark-mode .header-nav .nav-button:hover {
+    background-color: #007bb6;
+}
+
+/* Alterar a cor do rodapé */
+.dark-mode footer {
+    background-color: #003e63; /* Cor do rodapé */
+    color: #e0e0e0;
+}
+
+/* Alterar o estilo da caixa de texto e botões de rádio */
+.dark-mode input[type="text"],
+.dark-mode input[type="radio"] {
+    accent-color: #005a8b; /* Cor de destaque para os rádios e checkbox */
+}
+
+.dark-mode input[type="text"] {
+    background-color: #333; /* Fundo da caixa de texto */
+    border: 1px solid #555;
+    color: #e0e0e0; /* Cor do texto digitado */
+}
+
+.dark-mode input[type="text"]::placeholder {
+    color: #aaa; /* Cor do placeholder */
+}
+
+/* Estilo para a marcação de termo de busca no modo escuro */
+.dark-mode b {
+    background-color: yellow; /* Fundo amarelo para destaque */
+    color: black; /* Altera a cor do texto para preto para melhor contraste */
+    font-weight: bold;
+}
+
+/* Estilo para os títulos dos filtros */
+.dark-mode label {
+    display: inline-block;
+    width: 100%; /* Ocupa a largura total do container */
+    background-color: #52575c; /* Fundo azul claro */
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #ededee; /* Cor do texto */
+}
+
+/* Fundo azul claro no modo claro para a caixa de filtros na página de resultados */
+.dark-mode .filter-box {
+    background-color: #003e63; /* Agora fica azul escuro */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* ========================================================= */
+/* Estilos para o botão de modo escuro */
+/* ========================================================= */
+.theme-toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 0;
+    margin-left: auto; /* Alinha o botão à direita dentro do container flex */
+    color: #1900fb; /* Cor do sol/lua */
+}
+
+.dark-mode .theme-toggle-button {
+    color: #fbb400;
+}

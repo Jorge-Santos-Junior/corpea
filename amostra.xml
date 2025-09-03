@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<raiz>
+	<universidade uni="UFGD" curso="Letras" id="1.UFGD.Letras">
+        <perg1 p1-1="Quais são suas expectativas em relação a esta disciplina?" p1-2="Quais são suas dificuldades no campo da leitura e da escrita? Especifique." p1-3="Que funções e características da escrita acadêmica você já conhece? Explique." p1-4="Faça um desenho mostrando como você se vê na universidade. (Pode ser a lápis e em preto e branco)">Perguntas da parte 1 do questionário diagnóstico</perg1>
+        <perg2 p2-1="Do que tratam as matérias que lhes foram entregues? Onde e quando foram publicadas?" p2-2="A que atividades acadêmicas estão relacionadas (ensino, pesquisa ou extensão)?" p2-3="Que  matéria lhe chamou mais a atenção? Por quê?" p2-4="Do que trata essa matéria? Se tivesse que reportá-la a alguém, o que reportaria?">Perguntas da parte 2 do questionário diagnóstico</perg2>
+		<textos src="textos.pdf">Referência dos textos</textos>
+        <acad ano="2022" nome="ACMR" nasc="" idade="20" turma="Primeiro semestre" autodeclara="Branco" ingresso="SISU" faculAnt="Sim">Cursei 1 ano de Letras | Espanhol na UEMS, o motivo da minha troca de faculdade foi (riscado) por questão de turno.</acad>		
+        
+        <p1-r1 src="ACMR_p1-r1.png">Elaboração e análise da escrita.</p1-r1>
+        <p1-r2 src="ACMR_p1-r2.png">Na leitura é questão de ter mais tempo e (riscado)sair da minha "zona de conforto" literária em relação aos gêneros lidos. Na escrita é no tipo de escrita acadêmica, para elaboração de artigos e afins, também tenho dificuldade em fazer citações e (riscado) parafrasear </p1-r2>
+        <p1-r3 src="ACMR_p1-r3.png">Escrita de dissertações, artigos, pesquisados, elaboração de projetos e conclusão de curso (TCC). São (riscado) escritas (riscado) na maioria das vezes  com muitos dados e colheita de fontes verdadeira </p1-r3>
+        <p1-r4 src="ACMR_p1-r4.png"/>
+		<p2-r1 src="ACMR_p2-r1.png">(riscado) 1- Trata-se de três (riscado) artigos. A primeira foi publicado por Liona Call, jan, 2020 no site da unicamp. A segunda também no site da Unicamp, em 28 de Janeiro de 2020 por Carmo Gallo. E a terceira, também foi publicada no site da Unicamp, mas, em 05 de junho de 2019</p2-r1>
+        <p2-r2 src="ACMR_p2-r2.png">Textos 1 é uma pesquisa  Texto 2 é um ensino  Texto 3 é uma extensão</p2-r2>
+        <p2-r3 src="ACMR_p2-r3.png">A pesquisa que analisa a qualidade microbiológica de cogumelos comestíveis, pois o fato deles analisarem caso a caso em determinadas temperaturas e diferentes especies, me chamou a atenção, fico atraida por esse tipo de trabalho mais minucioso.</p2-r3>
+        <p2-r4 src="ACMR_p2-r4.png">Trata sobre o comportamento das bacterias em 195 especies de cogumelos diferentes e em temperaturas diferentes, a pesquisa trouxe também os dados que mostram o aumento do consumo de cogumelos frescos no Brasil por conta da imigração Japonesa e maior número de veganos e vegetarianos. Achei de suma importância esses dados e a contribuição do pesquisador.</p2-r4>
+	</universidade>
+
+<universidade uni="UFGD" curso="Letras" id="2.UFGD.Letras">
+        <perg1 p1-1="Quais são suas expectativas em relação a esta disciplina?" p1-2="Quais são suas dificuldades no campo da leitura e da escrita? Especifique." p1-3="Que funções e características da escrita acadêmica você já conhece? Explique." p1-4="Faça um desenho mostrando como você se vê na universidade. (Pode ser a lápis e em preto e branco)">Perguntas da parte 1 do questionário diagnóstico</perg1>
+        <perg2 p2-1="Do que tratam as matérias que lhes foram entregues? Onde e quando foram publicadas?" p2-2="A que atividades acadêmicas estão relacionadas (ensino, pesquisa ou extensão)?" p2-3="Que  matéria lhe chamou mais a atenção? Por quê?" p2-4="Do que trata essa matéria? Se tivesse que reportá-la a alguém, o que reportaria?">Perguntas da parte 2 do questionário diagnóstico</perg2>
+		<textos src="textos.pdf">Referência dos textos</textos>
+        <acad ano="2022" nome="ACGL" nasc="" idade="19" turma="Primeiro semestre" autodeclara="Pardo" ingresso="Vestibular" faculAnt="Não"> </acad>		
+        
+        <p1-r1 src="ACGL_p1-r1.png">Minhas expectativas são altas visando adquirir uma vasta imensidão de conhecimento agregando valores a minha vida academica.</p1-r1>
+        <p1-r2 src="ACGL_p1-r2.png">Para leitura não encontro barreiras ou dificuldades, já possuo o costume de leitura então não vejo dificuldades para tal. Na escrita, talvez falte um melhor aperfeiçoamento, uso mais abrangente de sinônimos e afins, maior uso de adjetivos. </p1-r2>
+        <p1-r3 src="ACGL_p1-r3.png">Escrita de artigos e pesquisas, biografias, TCC roteiros para academicos em artes cenicas e adaptações.</p1-r3>
+        <p1-r4 src="ACGL_p1-r4.png"/>
+		<p2-r1 src="ACGL_p2-r1.png">O primeiro texto traz um pesquisa que analisa a qualidade (riscado) microbiológica de cogumelos comestíveis trazendo uma pesquisa abrangente e com muitos resultados perante tal assunto. (parágrafo) O segundo texto tem como tema mães e filhos com deficiência se encontram na dança nos mostrando o resultado de uma atividade feita com mães e filhos os colocando para dançarem Juntos. (parágrafo) O terceiro texto fala sobre insetos comestíveis que podem enriquecer alimentos e complementar renda de comunidades carentes retratando a pesquisa de uma biologa (parágrafo) a fim de trazer um doutorado sobre criação de insetos comestiveis que pussibilitam produtores pequenos aumento de renda e melhoria nas condições sociais. (paráfrafo) O texto sobre cogumelos comestiveis foi pubicado por Liana Gell um 16 de Janeiro de 2020. O texto sobre Insetos comestiveis foi publicado per Carmo Gallo em 28 de Janeiro de 2020. O texto sobre mães e filhos na dança fui publicado por Gabriela Villen em 05 de junho de 2019</p2-r1>
+        <p2-r2 src="ACGL_p2-r2.png">Pesquisa</p2-r2>
+        <p2-r3 src="ACGL_p2-r3.png">Mães e filhos com deficiencia se reencontram na dança por retratar não só uma pesquisa mas os resultados e ações que furam postas</p2-r3>
+        <p2-r4 src="ACGL_p2-r4.png">Trata sobre (riscado) a dança e a aplicação dela em mães e filhos cujo obtem-se tipo de deficiencia. (parágrafo) Eu reportaria em como os resultados foram positivos e ajudaram a todos os ajudando a terem uma nova identidade, fazerem algo novo e se orgulharem disso.</p2-r4>
+	</universidade>
+</raiz>
